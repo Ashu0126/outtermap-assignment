@@ -8,7 +8,7 @@ To run this project locally, follow these steps:
 1. Clone the repository to your local machine.
 2. Navigate to the project directory.
 3. Install dependencies by running `npm install` or `yarn install`.
-4. Start the development server by running `npm start` or `yarn start`.
+4. Start the development server by running `npm start` or `yarn dev`.
 
 ## Usage
 Once the development server is running, open your web browser and go to the specified address (usually `http://localhost:3000`). You will see a map interface where you can click to add points and create a polygon. After adding at least three points, a button will appear allowing you to calculate the area of the polygon.
@@ -19,9 +19,7 @@ This project relies on the following dependencies:
 - OpenLayers
 
 ## File Structure
-- `src/`: Contains the source code of the project.
-  - `components/`: Contains React components.
-  - `styles/`: Contains CSS stylesheets.
+- `app/`: Contains the source code of the project.
   - `page.module.css`: Styles specific to the main page component.
   - `Home.tsx`: Main component file containing the map functionality.
 - `public/`: Contains public assets and the HTML file.
